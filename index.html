@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/normalize/8.0.1/normalize.css" type="text/css"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/jquery-datetimepicker/jquery.datetimepicker.css"/>
+</head>
+<body>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<div class="container">
+    <h1>我的todo</h1>
+    <form class="add-task">
+        <input name="content" type="text" placeholder="添加示例" autofocus autocomplete="off">
+        <button type="submit">submit</button>
+    </form>
+    <div class="task-list">
+        <!--        <div class="task-item">-->
+        <!--            <span><input type="checkbox"></span>-->
+        <!--            <span class="task-content">item content</span>-->
+        <!--            <span>delete</span>-->
+        <!--            <span>detail</span>-->
+        <!--        </div>-->
+    </div>
+    <div class="task-detail-mask">
+    </div>
+    <div class="task-detail">
+    </div>
+</div>
+<video class="alerter" src="alert.mp3"></video>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/storejs/dist/store.min.js"></script>
+<script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
